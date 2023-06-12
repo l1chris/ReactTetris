@@ -1,6 +1,7 @@
 {
   "name": "react-tetris",
   "version": "0.1.0",
+  "homepage": "https://l1chris.github.io/ReactTetris",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.0",
@@ -15,6 +16,8 @@
     "redux": "^4.0.5"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
