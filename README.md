@@ -1,6 +1,6 @@
 # ReactTetris
 
-A Tetris-like game made in React.
+A Tetris-like game made in React. Check it out [here](https://l1chris.github.io/ReactTetris/).
 
 ## Prerequisites
 
